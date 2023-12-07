@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+  }
+  
+  .container {
+    background-color: rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .centered-content {
+    text-align: center;
+  }
+  
+  .centered-content h2 {
+    color: pink;
+  }
+  
+  .centered-content p {
+    width: 500px;
+    color: #333;
+  }

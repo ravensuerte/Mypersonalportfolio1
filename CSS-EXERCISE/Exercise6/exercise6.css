@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+  }
+  h1{
+    text-align: center;
+  }
+  .item {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .item1 {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
